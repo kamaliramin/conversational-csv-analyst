@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;700&display=swap');
+
+body {
+    font-family: 'Vazirmatn', sans-serif;
+    direction: rtl;
+}
+
+/* Main app background */
+.main {
+    background-color: #f0f2f6;
+}
+
+/* Sidebar styling */
+.st-emotion-cache-16txtl3 {
+    background-color: #ffffff;
+    border-right: 1px solid #e6e6e6;
+}
+
+/* Chat message styling */
+.st-emotion-cache-1c7y2kd {
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+/* Assistant message */
+[data-testid="chat-message-container"]:has(div[data-testid="chat-avatar-assistant"]) {
+    background-color: #ffffff;
+}
+
+/* User message */
+[data-testid="chat-message-container"]:has(div[data-testid="chat-avatar-user"]) {
+    background-color: #e1f5fe;
+}
+
+/* Style the dataframe */
+.stDataFrame {
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+}
+
+/* Apply font to main content and sidebar, avoiding generic overrides */
+.main .block-container, .st-emotion-cache-16txtl3 {
+    font-family: 'Vazirmatn', sans-serif;
+}
+
+/* Ensure titles also get the font */
+h1, h2, h3 {
+    font-family: 'Vazirmatn', sans-serif;
+}
