@@ -39,7 +39,7 @@ The application functions as follows:
 
 1.  **Clone the repository:**
     ```bash
-git clone https://github.com/kamaliramin/conversational-csv-analyst.git
+    git clone https://github.com/kamaliramin/conversational-csv-analyst.git
     ```
 
 1.  **Create and activate a virtual environment:**
