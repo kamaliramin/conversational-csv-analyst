@@ -15,7 +15,7 @@ This web application allows you to upload a CSV file and interact with an AI age
 The application functions as follows:
 1.  **Data Upload:** Users upload a CSV file through the Streamlit web interface.
 2.  **Agent Initialization:** The `app.py` script initializes the LangChain agent, utilizing `agent_handler.py` to configure the agent with Google's Gemini Pro model.
-3.  **Natural Language Querying:** Users can ask questions about their data in plain English.
+3.  **Natural Language Querying:** Users can ask questions about their data in Natural Language.
 4.  **Data Analysis & Visualization:** The AI agent processes these queries, performs analysis, and generates visualizations (charts, plots) using components defined in `ui_components.py`.
 5.  **Output Display:** The results of the analysis and visualizations are presented back to the user within the Streamlit application.
 
